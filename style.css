@@ -501,7 +501,7 @@ body {
 	text-align: center;
 	font-size: 14px;
 	top: 5%;
-	right: 25%;
+	right: 20%;
 	padding: 10% 10%;
 }
 
@@ -596,7 +596,7 @@ body {
 	width:55%;
 	position: absolute;
 	right: 10%;
-	top:20%;
+	top:25%;
 }
 
 #recipi {
@@ -696,17 +696,11 @@ body {
 
 .ready img {
 	width: 185px;
-	box-shadow:
-    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
-    0 5px 6.1px rgba(0, 0, 0, 0.076),
-    0 10.1px 11.4px rgba(0, 0, 0, 0.086),
-    0 19.2px 19.8px rgba(0, 0, 0, 0.092),
-    0 38.4px 34.8px rgba(0, 0, 0, 0.1),
-    0 101px 74px rgba(0, 0, 0, 0.13);
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.4));
     transition: all ease 300ms; 
 }
 .ready img:hover{
-	box-shadow:none;
+	filter: drop-shadow(10px 10px 10px rgba(225,225,225,0.4));
 }
 
 .ready h4 {
