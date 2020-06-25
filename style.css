@@ -405,7 +405,7 @@ body {
 	filter: drop-shadow(10px 10px 10px rgba(169,159,97,0.4));
  }
 .s-pan img{
-	width: 25%;
+	width: 20%;
 }
 
 .s-pan img:hover {
@@ -696,11 +696,14 @@ body {
 
 .ready img {
 	width: 185px;
-	filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.4));
+	box-shadow:
+    0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076),
+    0 10.1px 11.4px rgba(0, 0, 0, 0.13);
     transition: all ease 300ms; 
 }
 .ready img:hover{
-	filter: drop-shadow(10px 10px 10px rgba(225,225,225,0.4));
+	box-shadow:none;
 }
 
 .ready h4 {
